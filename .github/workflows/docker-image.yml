@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        versions: [12, 16]
+        versions: [16]
     env:
       repo: "govpf/postgis"
     steps:
