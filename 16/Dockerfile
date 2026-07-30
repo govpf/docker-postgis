@@ -1,4 +1,4 @@
-FROM govpf/postgres:17
+FROM govpf/postgres:16
 
 LABEL maintainer="PostGIS Project - https://postgis.net" \
       org.opencontainers.image.description="PostGIS spatial database extension with PostgreSQL 17" \
