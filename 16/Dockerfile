@@ -1,5 +1,7 @@
 FROM govpf/postgres:16
 
+LABEL govpf.fromimage="govpf/postgres:16"
+LABEL govpf.category="database"
 LABEL maintainer="PostGIS Project - https://postgis.net" \
       org.opencontainers.image.description="PostGIS spatial database extension with PostgreSQL 16" \
       org.opencontainers.image.source="https://github.com/postgis/docker-postgis"
